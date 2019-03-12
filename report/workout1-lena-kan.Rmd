@@ -4,7 +4,7 @@ author: "Lena Kan"
 output: github_document
 ---
 
-```{r, echo=FALSE}
+```{r, echo=FALSE , include=FALSE, output=FALSE}
 
 #5.1) Effective Shooting Percentage 
 library(ggplot2)
