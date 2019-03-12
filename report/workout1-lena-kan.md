@@ -2,47 +2,6 @@ Warriors WOW again
 ================
 Lena Kan
 
-    ## Warning: package 'ggplot2' was built under R version 3.5.2
-
-    ## Warning: package 'jpeg' was built under R version 3.5.2
-
-    ## Warning: package 'readr' was built under R version 3.5.2
-
-    ## Warning: package 'dplyr' was built under R version 3.5.1
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-    ## Warning: Missing column names filled in: 'X1' [1]
-
-    ## Parsed with column specification:
-    ## cols(
-    ##   X1 = col_double(),
-    ##   team_name = col_character(),
-    ##   game_date = col_character(),
-    ##   season = col_double(),
-    ##   period = col_double(),
-    ##   minutes_remaining = col_double(),
-    ##   seconds_remaining = col_double(),
-    ##   shot_made_flag = col_character(),
-    ##   action_type = col_character(),
-    ##   shot_type = col_character(),
-    ##   shot_distance = col_double(),
-    ##   opponent = col_character(),
-    ##   x = col_double(),
-    ##   y = col_double(),
-    ##   name = col_character(),
-    ##   minute = col_double()
-    ## )
-
 <img src="../images/GSW-DEATH-LINEUP.jpg" width="80%" style="display: block; margin: auto;" />
 
 > As the year is coming to an end, another spectacular basketball season is wrapping also. This year, the Golden State Warriors didn't go down without a fight. Finishing strong with 67 overall wins and 15 losses, Steve Kerr has lead the team to remain at the top of the ranks. At the NBA playoffs in 2017, the GSW were able to win the NBA finals against the Cleveland Cavalier following 3 NBA Western Conference Final wins.
