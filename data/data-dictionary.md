@@ -21,4 +21,4 @@ shot_distance: distance (measured in feet) to the basket
 
 opponent: the team that the team is opponents with 
 
-x and y: refer to the court coordinates (measured in inches) where a shot occurred 
+x and y: refer to the court coordinates (measured in inches) where a shot has occurred
