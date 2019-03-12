@@ -80,3 +80,7 @@ facet_shot_chart <- ggplot(data=stacked_tables)+annotation_custom(court_image, -
 pdf(file = "./images/gsw-shot-charts.pdf", width=8, height = 7)
 facet_shot_chart
 dev.off()
+
+png(filename = "./images/gsw-shot-charts.png")
+facet_shot_chart
+dev.off()
