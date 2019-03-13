@@ -20,15 +20,30 @@ facet_shot_chart <- ggplot(data=stacked_tables)+annotation_custom(court_image, -
   theme_minimal()+facet_wrap(~name)+scale_color_manual(values=c("#E69F00", "#56B4E9"))
 ```
 
+``` r
+points_byname
+```
+
+    ## # A tibble: 5 x 4
+    ##   name           total  made perc_made
+    ##   <chr>          <int> <int>     <dbl>
+    ## 1 Kevin Durant     915   495      54.1
+    ## 2 Andre Iguodala   371   192      51.8
+    ## 3 Klay Thompson   1220   575      47.1
+    ## 4 Stephen Curry   1250   584      46.7
+    ## 5 Draymond Green   578   245      42.4
+
+> This table shows the percentage of all shots made by the golden state warrior players. Kevin Durant is the top scorer of the five players, making over 54% of all the shots that he takes on the court. Though Iguodala follows closely second, it's clear that Stephen Curry and Klay Thompson take the majority of the shots for the golden state warriors team.
+
 > Looking at the shot charts of all 5 golden state warrior players, Kevin Durant has a tendency to shoot frequently from within the key and outside on the rim, and has a high shooting percentage of 60.7% for his two pointers, and successfully makes 38.7% of his three pointers, making him an outstanding and effective shooter on the Golden State Warriors team. He also took a whooping number of 915 shots in total during that basketball season, reaching a mean shot distance of 13.12 inches away from the basket, indicating that he made many of his points through close layups, either through effective Alley Oop Layup shot or a cutting layup-shots. Most of his shots are grouped right under the basket, as he is always ready to receive a pass from a teammate to make that infallible layup of his. His shooting percentage is the highest in the team with an overall percentage of 54.1%.
 
-<img src="../images/gsw-shot-charts.jpg" width="80%" style="display: block; margin: auto;" /> &gt; Stephen Curry never ceases to disappoint either. As one of the world's most famous point guards, Stephen Curry relentlessly proves himself as a necessity to NBA's team and to their wins. Taking even more shots than Durant, 1250 over the entire 2016 season, Curry shoots from an average distance of 18 inches away from the basket, with most of his shot also being cutting layup shots or cutting finger layup shots. Like his teammate Kevin Durant, Curry makes over 54% of his two-point shots, and over 40% of his three-point shots. This makes him a unique point guard, who has an extremely strong shooting percentage from such a far way distance. By taking the most shots out of any one in his team, this outstanding shoot percentage comes at no surprise. Looking at the shot charts of all five players, shots around the three-point rim seem to very dense, and most of the shots are effective, with him making an overall 46.7% pf his shots.
+<img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" /> &gt; Stephen Curry never ceases to disappoint either. As one of the world's most famous point guards, Stephen Curry relentlessly proves himself as a necessity to NBA's team and to their wins. Taking even more shots than Durant, 1250 over the entire 2016 season, Curry shoots from an average distance of 18 inches away from the basket, with most of his shot also being cutting layup shots or cutting finger layup shots. Like his teammate Kevin Durant, Curry makes over 54% of his two-point shots, and over 40% of his three-point shots. This makes him a unique point guard, who has an extremely strong shooting percentage from such a far way distance. By taking the most shots out of any one in his team, this outstanding shoot percentage comes at no surprise. Looking at the shot charts of all five players, shots around the three-point rim seem to very dense, and most of the shots are effective, with him making an overall 46.7% pf his shots.
 
-<img src="../images/stephen-curry-shot-chart.jpg" width="80%" style="display: block; margin: auto;" />
+<img src="../images/curry-shot-chart.png" width="80%" style="display: block; margin: auto;" />
 
 > Moving on to our next player, Klay Thompson. Like his Curry and Durant, Thompson is a strong shooting guard and here's why. Observing the shot charts in comparison to other players, Klay Thompson undoubtedly takes the most charts out of all his teammates. Taking a total of 1220 shots in the 2016 season, Thompson also takes his shots from an average of 17.16 inches from the basket, proving that he takes, and makes many of his shots near the basket. However, it is clear that Thompson takes a preference from shooting from any distance on the court. Making 51.2% of his two pointers this season and 42.4% of his three pointers - the highest shooting percentage of three pointers out of anyone in the team, Thompson helps ensure that there is always a high discrepancy is score at any game that the Golden State Warriors play. Thank you Thompson for making the season a high scoring one for the warriors, with a stellar 47.1% of your shots made.
 
-<img src="../images/klay-thompson-shot-chart.jpg" width="80%" style="display: block; margin: auto;" />
+<img src="../images/thompson-shot-chart.png" width="80%" style="display: block; margin: auto;" />
 
 > Finally, for our analysis of the best defensive players of the star team. Andre Iguodala and Draymond Green, both tall and artfully skilled players, are the core to a strong defensive system of the team. Looking at overall shot charts, these two players take significantly less shots in the and around the rim of the basket. Especially Andre Iguodala, whose shots are very sparse around the basket, serves more a significant defensive players than his counterparts Durant, Curry or Thompson. Draymond Green takes more shots than Iguodala, making many of his shots from inside the key. Iguodala took a total of 371 shots throughout the season, while Green took a total of 578 shots. Even though they take less shots, their shooting percentages for 2 pt. shots are 63.8% and 49.4% for Iguodala and Green respectively. Their shooting percentages for 3 pt. shots are 36% and 31.9% for Iguodala and Green respectively. They both having an overall shooting percentage of 51.8% and 42.4% for Iguodala and Green respectively. As defensive players, the two clearly don't take as many shots, but their shooting percentages remain strong. But a heart of a strong basketball team is a stellar defensive mechanism, and GSW has just that with Iguoadala and Draymond Green.
 
