@@ -84,3 +84,12 @@ dev.off()
 png(filename = "./images/gsw-shot-charts.png")
 facet_shot_chart
 dev.off()
+
+##png of scatterplots 
+png(filename = "./images/curry-shot-chart.png")
+curry_shot_chart
+dev.off()
+
+png(filename = "./images/thompson-shot-chart.png")
+klay_shot_chart
+dev.off()
